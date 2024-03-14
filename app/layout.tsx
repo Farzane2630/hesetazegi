@@ -13,13 +13,16 @@ export default async function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
-  const res = await fetch('http://localhost:4000/user')
+  const res = await fetch('http://localhost:4000/user', {cache: "no-cache"})
   const data = await  res.json()
+
+  const res1 = await fetch('http://localhost:4000/categories', {cache: "no-cache"})
+  const categories = await  res1.json()
   
   return (
     <html lang="en">
       <body className="flex flex-col mt-[45px] mx-[204px]">
-        <Header {...data}/>
+        <Header userInfo={data} categories={categories}/>
         {children}
       </body>
     </html>

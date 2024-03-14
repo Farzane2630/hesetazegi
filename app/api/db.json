@@ -4,7 +4,68 @@
     "username": "Behzad",
     "avatar": "/images/avatar.jpg"
   },
-  "categories": {"id": "1" , "src":"/images/article-1-2.jpg"},
+  "categories": [
+    {
+      "title": "Car",
+      "src": "/images/article-1.png",
+      "categories": [
+        { "id": "1", "title": "Car News" },
+        { "id": "2", "title": "Car News" },
+        { "id": "3", "title": "Car News" },
+        { "id": "4", "title": "Car News" }
+      ]
+    },
+    {
+      "title": "Girlish",
+      "src": "/images/article-1.png",
+      "categories": [
+        { "id": "1", "title": "Car News" },
+        { "id": "2", "title": "Car News" },
+        { "id": "3", "title": "Car News" },
+        { "id": "4", "title": "Car News" }
+      ]
+    },
+    {
+      "title": "Cooking",
+      "src": "/images/article-1.png",
+      "categories": [
+        { "id": "1", "title": "Car News" },
+        { "id": "2", "title": "Car News" },
+        { "id": "3", "title": "Car News" },
+        { "id": "4", "title": "Car News" }
+      ]
+    },
+    {
+      "title": "Technology",
+      "src": "/images/article-1.png",
+      "categories": [
+        { "id": "1", "title": "Car News" },
+        { "id": "2", "title": "Car News" },
+        { "id": "3", "title": "Car News" },
+        { "id": "4", "title": "Car News" }
+      ]
+    },
+    {
+      "title": "Sport",
+      "src": "/images/article-1.png",
+      "categories": [
+        { "id": "1", "title": "Car News" },
+        { "id": "2", "title": "Car News" },
+        { "id": "3", "title": "Car News" },
+        { "id": "4", "title": "Car News" }
+      ]
+    },
+    {
+      "title": "Music",
+      "src": "/images/article-1.png",
+      "categories": [
+        { "id": "1", "title": "Car News" },
+        { "id": "2", "title": "Car News" },
+        { "id": "3", "title": "Car News" },
+        { "id": "4", "title": "Car News" }
+      ]
+    }
+  ],
   "pop-posts": [
     {
       "id": "1",
@@ -20,7 +81,7 @@
         "heading2": "Not how long, but how well you have lived is the main thing.",
         "paragraph2": "When you are ready to indulge your sense of excitement, check out the range of water- sports opportunities at the resort’s on-site water-sports center. Want to leave your stress on the water? The resort has kayaks, paddleboards, or the low-key pedal boats. Snorkeling equipment is available as well, so you can experience the ever-changing undersea environment.Not only do visitors to a bed and breakfast get a unique perspective on the place they are visiting, they have options for special packages not available in other hotel settings. Bed and breakfasts can partner easily with local businesses for a smoothly organized and highly personalized vacation experience. The Fife and Drum Inn offers options such as the Historic Triangle Package that includes three nights at the Inn, breakfasts, and admissions to historic Williamsburg, Jamestown, and Yorktown. Bed and breakfasts also lend themselves to romance.Part of the charm of a bed and breakfast is the uniqueness; art, décor, and food are integrated to create a complete experience. For example, the Fife and Drum retains the colonial feel of the area in all its guest rooms. Special features include antique furnishings, elegant four poster beds in some guest rooms, as well folk art and artifacts from the restoration period of the historic area available for guests to enjoy."
       },
-      "images": {"id": "1" , "src":"/images/article-1-2.jpg"},
+      "images": { "id": "1", "src": "/images/article-1-2.jpg" },
       "comments": 35,
       "authorPosts": 13,
       "category": "sport"
@@ -39,7 +100,7 @@
       "authorName": "Louis Hoebregts",
       "authorPic": "/images/louis.jpg",
       "thumbnail": "/images/article-2.jpg",
-      "images": {"id": "2" , "src":"/images/article-1-2.jpg"},
+      "images": { "id": "2", "src": "/images/article-1-2.jpg" },
       "comments": 20,
       "authorPosts": 27,
       "category": "Technology"
@@ -58,7 +119,7 @@
       "authorName": "Mary",
       "authorPic": "/images/mary.jpg",
       "thumbnail": "/images/article-3.jpg",
-      "images": {"id": "3" , "src":"/images/article-1-2.jpg"},
+      "images": { "id": "3", "src": "/images/article-1-2.jpg" },
       "comments": 8,
       "authorPosts": 17,
       "category": "Technology"
@@ -77,7 +138,7 @@
       "authorName": "Jon Kantner",
       "authorPic": "/images/jon.jpg",
       "thumbnail": "/images/article-4.jpg",
-      "images": {"id": "4" , "src":"/images/article-1-2.jpg"},
+      "images": { "id": "4", "src": "/images/article-1-2.jpg" },
       "comments": 31,
       "authorPosts": 57,
       "category": "General"

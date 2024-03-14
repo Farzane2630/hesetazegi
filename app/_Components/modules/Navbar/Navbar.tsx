@@ -2,6 +2,9 @@
 import ArrowDown from "@/public/Icons/ArrowDown";
 import Link from "next/link";
 import { useState } from "react";
+import SubMenuCard from "./SubMenuCard";
+import CategoryCard from "./CategoryCard";
+import { Category } from "@/public/Types/types";
 
 const NavItem = (props: { title: string }) => {
   const [isHover, setIsHover] = useState(false);
@@ -18,28 +21,33 @@ const NavItem = (props: { title: string }) => {
   )
 }
 
-function Navbar() {
+function Navbar({ categories }: { categories: Category[] }) {
   const [open, setOpen] = useState(false);
+  const [hover, setHover] = useState(false);
 
   return (
     <div className="w-full flex flex-row justify-start items-center gap-x-6">
-      <div onClick={() => setOpen(!open)} className="flex flex-row justify-center items-center gap-x-1">
+      <div
+        onMouseMove={() => setHover(true)}
+        onMouseLeave={() => setHover(false)}
+        onClick={() => setHover(true)}
+        className="flex flex-row justify-center items-center gap-x-1">
         <NavItem title="Categories" />
         <ArrowDown className="cursor-pointer rotate" />
       </div>
-      {/* {open ? (
-        <div className="dropdown-menu text-capitalize">
-          <Link href="reservation" className="dropdown-item">
-            Reservation
-          </Link>
-          <Link href="testimonial" className="dropdown-item">
-            Testimonial
-          </Link>
-        </div>
-      ) : null} */}
-      <div onClick={() => setOpen(!open)} className="flex flex-row items-center gap-x-1">
+      {hover ? (
+        <CategoryCard categories={categories} />
+      ) : null}
+      <div
+        onMouseMove={() => setOpen(true)}
+        onMouseLeave={() => setOpen(false)}
+        onClick={() => setOpen(!open)}
+        className="flex flex-row items-center relative gap-x-1">
         <NavItem title="Pages" />
         <ArrowDown className="cursor-pointer rotate" />
+        {open ? (
+          <SubMenuCard />
+        ) : null}
       </div>
 
       <NavItem title="Contact Us" />

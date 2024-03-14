@@ -27,3 +27,9 @@ export type User = {
   username: string;
   avatar: string;
 };
+
+export type Category = {
+  title: string;
+  src: string;
+  categories: { id: string; title: string }[];
+};
