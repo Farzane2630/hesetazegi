@@ -1,0 +1,89 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+   --swiper-navigation-size: 22px;
+}
+
+.rotate {
+   transition: transform 0.5s;
+}
+
+.rotate:hover {
+   transform: rotate(-180deg);
+}
+
+.hover-red {
+   fill: #F81539;
+}
+
+
+/* slides */
+.swiper {
+   width: 100%;
+   height: 100%;
+}
+
+.swiper-slide {
+   text-align: center;
+   background-size: cover;
+   background-repeat: no-repeat;
+
+   /* Center slide text vertically */
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.swiper-slide {
+   display: block;
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+   color: #3E3232 !important;
+   border: 1px solid #E6E6E6 !important;
+   background-color: #F5F5F5 !important;
+   padding: 20px !important;
+   border-radius: 12px !important;
+   font-size: 22px !important;
+}
+
+.swiper-button-next:hover,
+.swiper-button-prev:hover {
+   color: #F81539 !important;
+}
+
+.swiper-button-next::after, .swiper-button-prev::after{
+   font-size:13px !important ;
+   font-weight: 1000 !important;
+}
+
+.swiper-pagination{
+   display: flex;
+   width: 100%;
+   padding: 16px;
+   padding-right: 20px;
+   justify-content: flex-end;
+   z-index: 10000000000;
+}
+
+span.swiper-pagination-bullet.swiper-pagination-bullet-active {
+   background-color:#FFFFFF !important;
+   width: 27px !important;
+   height: 10px !important;
+   border-radius: 50px !important;
+   opacity: 1 !important;
+}
+
+/* target all bullets */
+.swiper-pagination-bullet {
+   background-color: #FFFFFF80 !important;
+   width: 10px !important;
+   height: 10px !important;
+   opacity: 1 !important;
+ }

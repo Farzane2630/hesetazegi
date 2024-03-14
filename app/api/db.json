@@ -1,0 +1,126 @@
+{
+  "user": {
+    "id": "456tghju789",
+    "username": "Behzad",
+    "avatar": "/images/avatar.jpg"
+  },
+  "categories": {"id": "1" , "src":"/images/article-1-2.jpg"},
+  "pop-posts": [
+    {
+      "id": "1",
+      "title": "Opening Day of Boating Season, Seattle WA",
+      "description": "Of course the Puget Sound is very watery, and where there is water, there are boats. Today is the Grand Opening of Boating Season when traffic gets stalled in the University District (UW) while the Montlake Bridge",
+      "date": "July 14 , 2022",
+      "authorName": "James",
+      "authorPic": "/images/james.jpg",
+      "thumbnail": "/images/article-1.png",
+      "content": {
+        "heading1": "Don’t wait. The purpose of our lives is to be happy!",
+        "paragraph1": "Upon arrival, your senses will be rewarded with the pleasant scent of lemongrass oil used to clean the natural wood found throughout the room, creating a relaxing atmosphere within the space. A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine. I am so happy, my dear friend, so absorbed in the exquisite.",
+        "heading2": "Not how long, but how well you have lived is the main thing.",
+        "paragraph2": "When you are ready to indulge your sense of excitement, check out the range of water- sports opportunities at the resort’s on-site water-sports center. Want to leave your stress on the water? The resort has kayaks, paddleboards, or the low-key pedal boats. Snorkeling equipment is available as well, so you can experience the ever-changing undersea environment.Not only do visitors to a bed and breakfast get a unique perspective on the place they are visiting, they have options for special packages not available in other hotel settings. Bed and breakfasts can partner easily with local businesses for a smoothly organized and highly personalized vacation experience. The Fife and Drum Inn offers options such as the Historic Triangle Package that includes three nights at the Inn, breakfasts, and admissions to historic Williamsburg, Jamestown, and Yorktown. Bed and breakfasts also lend themselves to romance.Part of the charm of a bed and breakfast is the uniqueness; art, décor, and food are integrated to create a complete experience. For example, the Fife and Drum retains the colonial feel of the area in all its guest rooms. Special features include antique furnishings, elegant four poster beds in some guest rooms, as well folk art and artifacts from the restoration period of the historic area available for guests to enjoy."
+      },
+      "images": {"id": "1" , "src":"/images/article-1-2.jpg"},
+      "comments": 35,
+      "authorPosts": 13,
+      "category": "sport"
+    },
+    {
+      "id": "2",
+      "content": {
+        "heading1": "Don’t wait. The purpose of our lives is to be happy!",
+        "paragraph1": "Upon arrival, your senses will be rewarded with the pleasant scent of lemongrass oil used to clean the natural wood found throughout the room, creating a relaxing atmosphere within the space. A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine. I am so happy, my dear friend, so absorbed in the exquisite.",
+        "heading2": "Not how long, but how well you have lived is the main thing.",
+        "paragraph2": "When you are ready to indulge your sense of excitement, check out the range of water- sports opportunities at the resort’s on-site water-sports center. Want to leave your stress on the water? The resort has kayaks, paddleboards, or the low-key pedal boats. Snorkeling equipment is available as well, so you can experience the ever-changing undersea environment.Not only do visitors to a bed and breakfast get a unique perspective on the place they are visiting, they have options for special packages not available in other hotel settings. Bed and breakfasts can partner easily with local businesses for a smoothly organized and highly personalized vacation experience. The Fife and Drum Inn offers options such as the Historic Triangle Package that includes three nights at the Inn, breakfasts, and admissions to historic Williamsburg, Jamestown, and Yorktown. Bed and breakfasts also lend themselves to romance.Part of the charm of a bed and breakfast is the uniqueness; art, décor, and food are integrated to create a complete experience. For example, the Fife and Drum retains the colonial feel of the area in all its guest rooms. Special features include antique furnishings, elegant four poster beds in some guest rooms, as well folk art and artifacts from the restoration period of the historic area available for guests to enjoy."
+      },
+      "title": "How to choose the right laptop for programming",
+      "description": "Choosing the right laptop for programming can be a tough process. It’s easy to get confused while researching the various options. There are many different laptop models out there, each with a different set of trade-offs",
+      "date": "July 25 , 2022",
+      "authorName": "Louis Hoebregts",
+      "authorPic": "/images/louis.jpg",
+      "thumbnail": "/images/article-2.jpg",
+      "images": {"id": "2" , "src":"/images/article-1-2.jpg"},
+      "comments": 20,
+      "authorPosts": 27,
+      "category": "Technology"
+    },
+    {
+      "id": "3",
+      "content": {
+        "heading1": "Don’t wait. The purpose of our lives is to be happy!",
+        "paragraph1": "Upon arrival, your senses will be rewarded with the pleasant scent of lemongrass oil used to clean the natural wood found throughout the room, creating a relaxing atmosphere within the space. A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine. I am so happy, my dear friend, so absorbed in the exquisite.",
+        "heading2": "Not how long, but how well you have lived is the main thing.",
+        "paragraph2": "When you are ready to indulge your sense of excitement, check out the range of water- sports opportunities at the resort’s on-site water-sports center. Want to leave your stress on the water? The resort has kayaks, paddleboards, or the low-key pedal boats. Snorkeling equipment is available as well, so you can experience the ever-changing undersea environment.Not only do visitors to a bed and breakfast get a unique perspective on the place they are visiting, they have options for special packages not available in other hotel settings. Bed and breakfasts can partner easily with local businesses for a smoothly organized and highly personalized vacation experience. The Fife and Drum Inn offers options such as the Historic Triangle Package that includes three nights at the Inn, breakfasts, and admissions to historic Williamsburg, Jamestown, and Yorktown. Bed and breakfasts also lend themselves to romance.Part of the charm of a bed and breakfast is the uniqueness; art, décor, and food are integrated to create a complete experience. For example, the Fife and Drum retains the colonial feel of the area in all its guest rooms. Special features include antique furnishings, elegant four poster beds in some guest rooms, as well folk art and artifacts from the restoration period of the historic area available for guests to enjoy."
+      },
+      "title": "How we built the first real self-driving car",
+      "description": "Electric self-driving cars will save millions of lives and significantly accelerate the world’s transition to sustainable energy, but only when",
+      "date": "July 14 , 2022",
+      "authorName": "Mary",
+      "authorPic": "/images/mary.jpg",
+      "thumbnail": "/images/article-3.jpg",
+      "images": {"id": "3" , "src":"/images/article-1-2.jpg"},
+      "comments": 8,
+      "authorPosts": 17,
+      "category": "Technology"
+    },
+    {
+      "id": "4",
+      "content": {
+        "heading1": "Don’t wait. The purpose of our lives is to be happy!",
+        "paragraph1": "Upon arrival, your senses will be rewarded with the pleasant scent of lemongrass oil used to clean the natural wood found throughout the room, creating a relaxing atmosphere within the space. A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine. I am so happy, my dear friend, so absorbed in the exquisite.",
+        "heading2": "Not how long, but how well you have lived is the main thing.",
+        "paragraph2": "When you are ready to indulge your sense of excitement, check out the range of water- sports opportunities at the resort’s on-site water-sports center. Want to leave your stress on the water? The resort has kayaks, paddleboards, or the low-key pedal boats. Snorkeling equipment is available as well, so you can experience the ever-changing undersea environment.Not only do visitors to a bed and breakfast get a unique perspective on the place they are visiting, they have options for special packages not available in other hotel settings. Bed and breakfasts can partner easily with local businesses for a smoothly organized and highly personalized vacation experience. The Fife and Drum Inn offers options such as the Historic Triangle Package that includes three nights at the Inn, breakfasts, and admissions to historic Williamsburg, Jamestown, and Yorktown. Bed and breakfasts also lend themselves to romance.Part of the charm of a bed and breakfast is the uniqueness; art, décor, and food are integrated to create a complete experience. For example, the Fife and Drum retains the colonial feel of the area in all its guest rooms. Special features include antique furnishings, elegant four poster beds in some guest rooms, as well folk art and artifacts from the restoration period of the historic area available for guests to enjoy."
+      },
+      "title": "How to Persuade Your Parents to Buy Fast Food",
+      "description": "Parents often don’t want to buy fast food. They may be worried that it’s too expensive, unhealthy, or not worth the effort and time.",
+      "date": "May 10 , 2022",
+      "authorName": "Jon Kantner",
+      "authorPic": "/images/jon.jpg",
+      "thumbnail": "/images/article-4.jpg",
+      "images": {"id": "4" , "src":"/images/article-1-2.jpg"},
+      "comments": 31,
+      "authorPosts": 57,
+      "category": "General"
+    }
+  ],
+  "tags": [
+    { "id": "1", "title": "Montenegro" },
+    { "id": "2", "title": "Visit Croatia" },
+    { "id": "3", "title": "Luxury Travel" },
+    { "id": "4", "title": "Travel Log" },
+    { "id": "5", "title": "Paradise Island" },
+    { "id": "6", "title": "Travel Info" }
+  ],
+  "topPosts": [
+    {
+      "id": "1",
+      "thumbnail": "/images/top-posts-1.jpg"
+    },
+    {
+      "id": "2",
+      "thumbnail": "/images/top-posts-2.jpg"
+    },
+    {
+      "id": "3",
+      "thumbnail": "/images/top-posts-3.jpg"
+    },
+    {
+      "id": "4",
+      "thumbnail": "/images/top-posts-4.jpg"
+    },
+    {
+      "id": "5",
+      "thumbnail": "/images/top-posts-5.jpg"
+    }
+  ],
+  "ads": [
+    {
+      "id": "1",
+      "bg": "/images/ads-1.jpg"
+    },
+    {
+      "id": "2",
+      "bg": "/images/ads-2.jpg"
+    }
+  ]
+}
